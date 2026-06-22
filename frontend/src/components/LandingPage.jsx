@@ -56,7 +56,6 @@ export default function LandingPage() {
 
     const storedName = localStorage.getItem('userName');
     if (storedName) {
-      setUserName(storedName);
       return;
     }
 
